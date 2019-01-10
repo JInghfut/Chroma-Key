@@ -1,4 +1,4 @@
-# Chroma-Key: Computer Vision Assignment0
+# Chroma-Key: Computer Vision Assignment
 
 Introduction
 ============
