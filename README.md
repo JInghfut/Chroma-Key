@@ -1,14 +1,4 @@
-# Chroma-Key
----
-author:
-- 'Nilabja Bhattacharya (Roll 2018201036)'
-bibliography:
-- 'references.bib'
-date: 11th January 2019
-title: |
-    [Computer Vision Assignment
-    0](https://github.com/nilabja10201992/Chroma-Key)
----
+# Chroma-Key: Computer Vision Assignment
 
 Introduction
 ============
@@ -31,7 +21,7 @@ more commonly used because they differ most distinctly in hue from most
 human skin colors. No part of the subject being filmed or photographed
 may duplicate the color used as the backing.
 
-![Green Screen Chroma Keying[]{label="fig:1"}](CK.jpg){#fig:1}
+![Green Screen Chroma Keying[]{label="fig:1"}](CK.jpg)
 
 Problem 1
 =========
@@ -54,11 +44,11 @@ of given fps.
 Usage
 -----
 
-### Split {#split .unnumbered}
+### Split
 
         python3 2_1.py --input v34.mp4 --algo split --dir outputdir
 
-### Merge {#merge .unnumbered}
+### Merge
 
         python3 2_1.py --input v34.avi --algo merge --dir inputdir --fps 27.97
 
@@ -188,4 +178,4 @@ that it was helpful in understanding how chroma-key algorithm is used in
 movie industry effectively to merge two videos and render the merged
 video to viewers.
 
-[Google drive link for experiments]{https://drive.google.com/open?id=1K-awIH-PWCfVr32KSDbvzqSmkfcnZ0f_}
+[Google drive link for experiments](https://drive.google.com/open?id=1K-awIH-PWCfVr32KSDbvzqSmkfcnZ0f_)
