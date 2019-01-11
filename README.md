@@ -177,7 +177,7 @@ Video 1
 
 ![Output[]{label="Fig:Data1"}](frames_1/0.jpg) ![Output[]{label="Fig:Data1"}](frames_1/01.jpg) ![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_1/500.jpg =250x) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg =250x) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg = 250x)
+![Output[]{label="Fig:Data1"}](frames_1/500.jpg =250x250) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg =250x250) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg = 250x250)
 ![Output[]{label="Fig:Data1"}](frames_1/1000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
 
 ![Output[]{label="Fig:Data1"}](frames_1/1500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
