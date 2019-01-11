@@ -175,115 +175,29 @@ Frames of Chroma-keying on a video
 Video 1
 -------
 
-![Output[]{label="Fig:Data1"}](frames_1/0.jpg)
+![Output[]{label="Fig:Data1"}](frames_1/0.jpg) ![Output[]{label="Fig:Data1"}](frames_1/01.jpg) ![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
 
-$\star$
+![Output[]{label="Fig:Data1"}](frames_1/500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
+![Output[]{label="Fig:Data1"}](frames_1/1000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_1/01.jpg)
+![Output[]{label="Fig:Data1"}](frames_1/1500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
 
-$\Longrightarrow$
+![Output[]{label="Fig:Data1"}](frames_1/2000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/20001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/20002.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
+![Output Image[]{label="Fig:Data1"}](frames_1/2500.jpg) ![Output Image[]{label="Fig:Data1"}](frames_1/25001.jpg) ![Output Image[]{label="Fig:Data1"}](frames_1/25002.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_1/500.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/5001.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
-![Output[]{label="Fig:Data1"}](frames_1/1000.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/10001.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/1500.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/15001.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/2000.jpg)
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/20001.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_1/20002.jpg)
-
-![Output Image[]{label="Fig:Data1"}](frames_1/2500.jpg)
-
-$\star$
-
-![Output Image[]{label="Fig:Data1"}](frames_1/25001.jpg)
-
-$\Longrightarrow$
-
-![Output Image[]{label="Fig:Data1"}](frames_1/25002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/3000.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/30001.jpg)
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_1/30002.jpg)
+![Output[]{label="Fig:Data1"}](frames_1/3000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/30001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/30002.jpg)
 
 Video 2
 -------
 
-![Output[]{label="Fig:Data1"}](frames_2/1.jpg)
+![Output[]{label="Fig:Data1"}](frames_2/1.jpg) ![Output[]{label="Fig:Data1"}](frames_2/2.jpg) ![Output[]{label="Fig:Data1"}](frames_2/3.jpg)
 
-$\star$
+![Output[]{label="Fig:Data1"}](frames_2/101.jpg) ![Output[]{label="Fig:Data1"}](frames_1/102.jpg) ![Output[]{label="Fig:Data1"}](frames_2/103.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_2/2.jpg)
+![Output[]{label="Fig:Data1"}](frames_2/201.jpg) ![Output[]{label="Fig:Data1"}](frames_2/202.jpg) ![Output[]{label="Fig:Data1"}](frames_2/203.jpg)
 
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_2/3.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_2/101.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_1/102.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_2/103.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_2/201.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_2/202.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_2/203.jpg)
-
-![Output[]{label="Fig:Data1"}](219.jpg)
-
-$\star$
-
-![Output[]{label="Fig:Data1"}](frames_2/220.jpg)
-
-$\Longrightarrow$
-
-![Output[]{label="Fig:Data1"}](frames_2/221.jpg)
+![Output[]{label="Fig:Data1"}](frames_2/219.jpg) ![Output[]{label="Fig:Data1"}](frames_2/220.jpg) ![Output[]{label="Fig:Data1"}](frames_2/221.jpg)
 
 Links
 =====
