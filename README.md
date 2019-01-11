@@ -167,7 +167,7 @@ replace them with that of second video to form the resultant video
 Illustration of Chroma-Key on an Image
 ======================================
 
-| ![Output Image[]{label="Fig:Data1"}](1.png) | ![Output Image[]{label="Fig:Data1"}](2.png)| ![Output Image[]{label="Fig:Data1"}](filename.png)
+ ![Output Image[]{label="Fig:Data1"}](1.png)  ![Output Image[]{label="Fig:Data1"}](2.png) ![Output Image[]{label="Fig:Data1"}](filename.png)
 
 Frames of Chroma-keying on a video
 ==================================
