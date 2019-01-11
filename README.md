@@ -174,19 +174,13 @@ Frames of Chroma-keying on a video
 
 Video 1
 -------
-<img src="frames_1/0.jpg" alt="foo" title="title" width="100px" height="100px"/> + <img src="frames_1/01.jpg" alt="foo" title="title" width="100px" height="100px"/> -> <img src="frames_1/02.jpg" alt="foo" title="title" width="100px" height="100px"/>
-![Output[]{label="Fig:Data1"}](frames_1/0.jpg) ![Output[]{label="Fig:Data1"}](frames_1/01.jpg) ![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
-![Output[]{label="Fig:Data1"}](frames_1/1000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/1500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/2000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/20001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/20002.jpg)
-
-![Output Image[]{label="Fig:Data1"}](frames_1/2500.jpg) ![Output Image[]{label="Fig:Data1"}](frames_1/25001.jpg) ![Output Image[]{label="Fig:Data1"}](frames_1/25002.jpg)
-
-![Output[]{label="Fig:Data1"}](frames_1/3000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/30001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/30002.jpg)
+<img src="frames_1/0.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/01.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/02.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/500.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/5001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/5002.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/1000.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/10001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/10002.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/1500.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/15001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/15002.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/2000.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/20001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/20002.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/2500.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/25001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/25002.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/3000.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/30001.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/30002.jpg" alt="foo" title="title" width="100px" height="100px"/>
 
 Video 2
 -------
