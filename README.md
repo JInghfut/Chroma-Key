@@ -190,7 +190,7 @@ Video 1
 
 Video 2
 -------
-<img src="frames_2/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/2.jpg" alt="foo" title="title" width="100px" height="100px"/> &rightarrow; <img src="frames_2/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/2.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
 <img src="frames_2/101.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/102.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/103.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
