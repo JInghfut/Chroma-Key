@@ -174,7 +174,7 @@ Frames of Chroma-keying on a video
 
 Video 1
 -------
-<img src="frames_1/0.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_1/0.jpg" alt="foo" title="title" width="100px" height="100px"/> + <img src="frames_1/01.jpg" alt="foo" title="title" width="100px" height="100px"/> -> <img src="frames_1/02.jpg" alt="foo" title="title" width="100px" height="100px"/>
 ![Output[]{label="Fig:Data1"}](frames_1/0.jpg) ![Output[]{label="Fig:Data1"}](frames_1/01.jpg) ![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
 
 ![Output[]{label="Fig:Data1"}](frames_1/500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
