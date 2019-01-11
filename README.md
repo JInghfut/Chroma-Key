@@ -44,11 +44,11 @@ of given fps.
 Usage
 -----
 
-### Split {#split .unnumbered}
+### Split 
 
         python3 2_1.py --input v34.mp4 --algo split --dir outputdir
 
-### Merge {#merge .unnumbered}
+### Merge 
 
         python3 2_1.py --input v34.avi --algo merge --dir inputdir --fps 27.97
 
@@ -190,7 +190,7 @@ Video 1
 
 Video 2
 -------
-<img src="frames_2/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/2.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/2.jpg" alt="foo" title="title" width="100px" height="100px"/> &leftarrow <img src="frames_2/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
 <img src="frames_2/101.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/102.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/103.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
