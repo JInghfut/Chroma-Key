@@ -174,10 +174,10 @@ Frames of Chroma-keying on a video
 
 Video 1
 -------
-
+<img src="frames_1/0.jpg" alt="foo" title="title" width="20px" height="20px"/>
 ![Output[]{label="Fig:Data1"}](frames_1/0.jpg) ![Output[]{label="Fig:Data1"}](frames_1/01.jpg) ![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
 
-![Output[]{label="Fig:Data1"}](frames_1/500.jpg){:height="50%" width="50%"} ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg){:height="50%" width="50%"} ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg){:height="50%" width="50%"}
+![Output[]{label="Fig:Data1"}](frames_1/500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
 ![Output[]{label="Fig:Data1"}](frames_1/1000.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
 
 ![Output[]{label="Fig:Data1"}](frames_1/1500.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15001.jpg) ![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
