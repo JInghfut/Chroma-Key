@@ -13,13 +13,13 @@ foreground footage is made transparent, allowing separately filmed
 background footage or a static image to be inserted into the scene. The
 chroma keying technique is commonly used in video production and
 post-production. This technique is also referred to as color keying,
-colour-separation overlay (CSO; primarily by the BBC\[3\]), or by
-various terms for specific color-related variants such as green screen,
-and blue screen -- chroma keying can be done with backgrounds of any
-color that are uniform and distinct, but green and blue backgrounds are
-more commonly used because they differ most distinctly in hue from most
-human skin colors. No part of the subject being filmed or photographed
-may duplicate the color used as the backing.
+colour-separation overlay (CSO; primarily by the BBC), or by various
+terms for specific color-related variants such as green screen, and blue
+screen -- chroma keying can be done with backgrounds of any color that
+are uniform and distinct, but green and blue backgrounds are more
+commonly used because they differ most distinctly in hue from most human
+skin colors. No part of the subject being filmed or photographed may
+duplicate the color used as the backing.
 
 ![Green Screen Chroma Keying[]{label="fig:1"}](CK.jpg)
 
@@ -44,16 +44,16 @@ of given fps.
 Usage
 -----
 
-### Split
+### Split {#split .unnumbered}
 
         python3 2_1.py --input v34.mp4 --algo split --dir outputdir
 
-### Merge
+### Merge {#merge .unnumbered}
 
         python3 2_1.py --input v34.avi --algo merge --dir inputdir --fps 27.97
 
-Implementation
---------------
+Implementation Result
+---------------------
 
 -   Implemented **split** function on a video, to split it into frames -
     [Link](https://drive.google.com/open?id=1St3s2cZObjImqMPK8Z4hOXI59y-tup_m)
@@ -90,8 +90,8 @@ Usage
 
     python3 2_2.py --dir outputdir
 
-Implementation
---------------
+Implementation Result
+---------------------
 
 Implemented this code to take live video, thus render the frames to
 users and save the frames into the given folder -
@@ -131,8 +131,8 @@ Usage
 
     python3 2_3.py --input_1 1.mp4 --input_2 v33.mp4 --output edited.avi
 
-Implemention
-------------
+Implemention Result
+-------------------
 
 Implemented Chroma-Key algorithm on two different videos and the results
 can be found on following links
@@ -149,26 +149,155 @@ and I've realised that Traingulation matting is most efficient method to
 replace background but the only flaw that it has is, it needs four
 images to extract the foreground from background efficiently and for
 videos its two times the effort because we need to shoot the video two
-times in different background.
+times in different background. I've shot video under varying background
+and lighting conditions and I've realised that chroma-key methods works
+efficiently only when the first video is shot with a fixed green or blue
+background and has proper lighting conditions I've tried to chroma-key
+on live video shot using webcam but it didn't work efficiently because
+background wasn't of fixed color. Apart from that I've also tried
+applying background substraction to get the alpha matte of the first
+video and then apply aplha matting to merge first and second video. But
+the problem that I faced was it was blending of two videos in some
+proportion and it was not a chroma key video. Finally I came to the
+conclusion that only way to chroma-key a video is to have a fixed
+background of green or blue color and with proper lighting conditions,
+so that we can track the range of background pixel intensity and thus
+replace them with that of second video to form the resultant video
 
-I've shot video under varying background and lighting conditions and
-I've realised that chroma-key methods works efficiently only when the
-first video is shot with a fixed green or blue background and has proper
-lighting conditions
+Illustration of Chroma-Key on an Image
+======================================
 
-I've tried to chroma-key on live video shot using webcam but it didn't
-work efficiently because background wasn't of fixed color.
+![Output Image[]{label="Fig:Data1"}](1.png)
+$\star$
 
-Apart from that I've also tried applying background substraction to get
-the alpha matte of the first video and then apply aplha matting to merge
-first and second video. But the problem that I faced was it was blending
-of two videos in some proportion and it was not a chroma key video.
+![Output Image[]{label="Fig:Data1"}](2.png)
+$\Longrightarrow$
 
-Finally I came to the conclusion that only way to chroma-key a video is
-to have a fixed background of green or blue color and with proper
-lighting conditions, so that we can track the range of background pixel
-intensity and thus replace them with that of second video to form the
-resultant video
+![Output Image[]{label="Fig:Data1"}](filename.png)
+
+Frames of Chroma-keying on a video
+==================================
+
+Video 1
+-------
+
+![Output[]{label="Fig:Data1"}](frames_1/0.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/01.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/02.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_1/500.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/5001.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/5002.jpg)
+![Output[]{label="Fig:Data1"}](frames_1/1000.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/10001.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/10002.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_1/1500.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/15001.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/15002.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_1/2000.jpg)
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/20001.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/20002.jpg)
+
+![Output Image[]{label="Fig:Data1"}](frames_1/2500.jpg)
+
+$\star$
+
+![Output Image[]{label="Fig:Data1"}](frames_1/25001.jpg)
+
+$\Longrightarrow$
+
+![Output Image[]{label="Fig:Data1"}](frames_1/25002.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_1/3000.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/30001.jpg)
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_1/30002.jpg)
+
+Video 2
+-------
+
+![Output[]{label="Fig:Data1"}](frames_2/1.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_2/2.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_2/3.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_2/101.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_1/102.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_2/103.jpg)
+
+![Output[]{label="Fig:Data1"}](frames_2/201.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_2/202.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_2/203.jpg)
+
+![Output[]{label="Fig:Data1"}](219.jpg)
+
+$\star$
+
+![Output[]{label="Fig:Data1"}](frames_2/220.jpg)
+
+$\Longrightarrow$
+
+![Output[]{label="Fig:Data1"}](frames_2/221.jpg)
+
+Links
+=====
+
+-   [Github Link](https://github.com/nilabja10201992/Chroma-Key)
+
+-   [Google drive
+    Link](https://drive.google.com/open?id=1K-awIH-PWCfVr32KSDbvzqSmkfcnZ0f_)
 
 Conclusion
 ==========
@@ -177,5 +306,3 @@ This assignment helped me understand how to use openCV and apart from
 that it was helpful in understanding how chroma-key algorithm is used in
 movie industry effectively to merge two videos and render the merged
 video to viewers.
-
-[Google drive link for experiments](https://drive.google.com/open?id=1K-awIH-PWCfVr32KSDbvzqSmkfcnZ0f_)
