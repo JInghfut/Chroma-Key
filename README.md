@@ -190,13 +190,13 @@ Video 1
 
 Video 2
 -------
-<img src="frames_1/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/2.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/1.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/2.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/3.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
-<img src="frames_1/101.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/102.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/103.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/101.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/102.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/103.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
-<img src="frames_1/201.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/202.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/203.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/201.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/202.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/203.jpg" alt="foo" title="title" width="100px" height="100px"/>
 <br/>
-<img src="frames_1/219.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_1/220.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_1/221.jpg" alt="foo" title="title" width="100px" height="100px"/>
+<img src="frames_2/219.jpg" alt="foo" title="title" width="100px" height="100px"/> <img src="frames_2/220.jpg" alt="foo" title="title" width="100px" height="100px"/>  <img src="frames_2/221.jpg" alt="foo" title="title" width="100px" height="100px"/>
 
 Links
 =====
